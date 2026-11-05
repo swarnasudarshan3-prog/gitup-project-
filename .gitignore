@@ -1,0 +1,122 @@
+
+# ==========================================
+# Python Project .gitignore
+# Data Analysis | Forecasting | Dashboards
+# ==========================================
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+virtualenv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Python Build Files
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+pip-wheel-metadata/
+
+# Environment Variables and Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.json
+credentials.json
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+.profile_default/
+
+# Testing and Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+
+# Logs
+*.log
+logs/
+pip-log.txt
+
+# Operating System
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.swp
+*~
+
+# Data Analysis
+data/raw/
+data/interim/
+data/processed/
+*.parquet
+*.feather
+*.pickle
+*.pkl
+
+# Machine Learning Models
+models/*.pkl
+models/*.joblib
+models/*.h5
+models/*.keras
+models/*.pt
+models/*.pth
+
+# Forecasting Outputs
+outputs/
+forecasts/
+reports/generated/
+
+# Dashboard Cache
+.streamlit/secrets.toml
+.streamlit/cache/
+.gradio/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+
+# Excel Temporary Files
+~$*.xlsx
+~$*.xls
+
+# Local Configuration
+config/local.*
+settings.local.py
+
+# Keep Project Documentation
+!README.md
+!requirements.txt
+!pyproject.toml
